@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Freespins Hunt Logger</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="logo.png" alt="Mein Logo" class="logo">
+    </header>
+
+    <div class="form">
+      <input id="slotSearch" type="text" placeholder="Slot suchen…" list="slotList">
+      <datalist id="slotList"></datalist>
+
+      <input id="betInput" type="number" placeholder="Einsatz in €" min="0" step="0.01">
+      <input id="fsValueInput" type="number" placeholder="Freispiele Wert" min="0" step="0.01">
+      <input id="chatSuggestInput" type="text" placeholder="Chat User">
+
+      <button id="addHuntBtn">Hunt speichern</button>
+    </div>
+
+    <table id="huntLog">
+      <thead>
+        <tr>
+          <th>Datum/Zeit</th>
+          <th>Slot</th>
+          <th>Einsatz (€)</th>
+          <th>FS-Wert</th>
+          <th>FS-Gewinn (€)</th>
+          <th>Chat User</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+
+      <tfoot>
+    <tr>
+      <td colspan="4" style="text-align:right; font-weight:bold">Summe FS-Gewinne:</td>
+      <td id="sumFsWin">0.00</td>
+      <td></td>
+    </tr>
+  </tfoot>
+</table>
+  </div>
+<footer class="footer">
+    … by Ammoknoxx
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
