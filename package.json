@@ -16,7 +16,8 @@
     "electron-packager": "^15.5.1"
   },
   "dependencies": {
-    "7zip-bin": "^5.2.0"
+    "7zip-bin": "^5.2.0",
+    "electron-updater": "^6.6.2"
   },
   "build": {
     "appId": "com.ammoknoxx.freespinslogger",
@@ -31,6 +32,13 @@
     "win": {
       "target": "nsis",
       "icon": "icon.ico"
-    }
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "DeinGitHubName",
+        "repo": "freespinslogger"
+      }
+    ]
   }
 }
