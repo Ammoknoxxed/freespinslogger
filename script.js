@@ -7642,7 +7642,17 @@ document.addEventListener("DOMContentLoaded", () => {
 "Football Mania Deluxe",
 "Dracula",
 "Majestic King - Sunset",
-"Queen of Flames the Wheel",   
+"Queen of Flames the Wheel",
+"Joker´s Mega Fortune",
+"3 Spririt Volcanoes",
+"Waves of Poseidon",
+"Moon Princess Stargazing",
+"Panda Dinero",
+"Eagle Honor 7s",
+"Rise of Cleopatra",
+"Ra´s Relics Bonanza",
+"777 Fruity Coins",
+"Lucky Robbery Win Spins",
   ];
 
   const slotSearch       = document.getElementById("slotSearch");
