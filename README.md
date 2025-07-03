@@ -14,7 +14,7 @@ FreespinsLogger hilft dir, deine Slot-Freespin-, Hunting- und Bonusrunden zu pro
 ## Installation
 
 ```bash
-git clone https://github.com/DEIN_USER/freespinslogger.git
+git clone https://github.com/ammoknoxxed/freespinslogger.git
 cd freespinslogger
 npm install
 npm run start
